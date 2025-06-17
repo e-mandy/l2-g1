@@ -26,7 +26,7 @@
 
         <button type="submit">Enregistrer</button>
     </form>
-
+    @auth
     <table>
         <thead>
             <tr>
@@ -47,5 +47,6 @@
             @endforeach
         </tbody>
     </table>
+    @endauth
 </body>
 </html>
